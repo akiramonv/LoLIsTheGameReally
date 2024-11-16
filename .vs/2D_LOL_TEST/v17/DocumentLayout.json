@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\2D_LOL_TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49F09080-669B-920A-9066-E86D4C0F58AE}|AstarPathfindingProjectEditor.csproj|c:\\users\\asus\\2d_lol_test\\assets\\astarpathfindingproject\\editor\\astarupdatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F09080-669B-920A-9066-E86D4C0F58AE}|AstarPathfindingProjectEditor.csproj|solutionrelative:assets\\astarpathfindingproject\\editor\\astarupdatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|c:\\users\\asus\\2d_lol_test\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\2D_LOL_TEST\\assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|c:\\users\\asus\\2d_lol_test\\assets\\scripts\\flyingeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E0C7F7-09DC-731D-6CC2-A9EEB671A282}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flyingeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AstarUpdateChecker.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
+              "ToolTip": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
+              "RelativeToolTip": "Assets\\AstarPathfindingProject\\Editor\\AstarUpdateChecker.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAmwN8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:11:16.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:35:08.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlyingEye.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\FlyingEye.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FlyingEye.cs",
+              "ToolTip": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\FlyingEye.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FlyingEye.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:16:47.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Hero.cs",
+              "ToolTip": "C:\\Users\\ASUS\\2D_LOL_TEST\\Assets\\Scripts\\Hero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Hero.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:21:49.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
