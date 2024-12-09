@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Hero : EntityEngine
 {
+    public int maxHealth = 5; // Максимальное здоровье
     [SerializeField] private float speed = 3f; // скорость движения
     [SerializeField] private int health; // колво жизней
     [SerializeField] private float jumpForse = 15f; // сила прыжка
@@ -30,14 +31,15 @@ public class Hero : EntityEngine
     public LayerMask enemy;
 
     [SerializeField] private GameObject LosePanel;  // Панель lose
-   
+
+    Sceleton[] allEnemies;
 
     public static Hero Instance { get; set; }
 
 
     public override void GetDamage()
     {
-        health -= 1;
+        health--;
         Debug.Log(health);
         if (health == 0)
         {
@@ -57,6 +59,20 @@ public class Hero : EntityEngine
         // Можно добавить эффекты, такие как проигрывание звука или анимации смерти
         Debug.Log("Player has died and will respawn.");
 
+        // Возрождаем всех врагов
+        RespawnAllEnemies();
+
+        // Обнуляем счётчик очков
+        ScoreManager.Instance.ResetScore();
+    }
+
+    private void RespawnAllEnemies()
+    {
+        // Ищем всех врагов на сцене
+        foreach (var enemy in allEnemies)
+        {
+            enemy.Respawn(); // Метод для возрождения врага
+        }
     }
 
     private IEnumerator RespawnWithDelay()
@@ -70,6 +86,10 @@ public class Hero : EntityEngine
 
     public void Respawn()
     {
+        // Восстанавливаем здоровье
+        health = maxHealth;
+        UpdateHeartsUI(); // Обновляем интерфейс здоровья
+
         // Загружаем сохранённые данные
         SaveData data = SaveSystem.LoadProgress();
         string activeCheckpointID = data.lastActiveCheckpointID;
@@ -101,6 +121,22 @@ public class Hero : EntityEngine
     }
 
 
+    // Метод для обновления UI здоровья
+    private void UpdateHeartsUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+            {
+                hearts[i].sprite = aliveHeart; // Полное сердце
+            }
+            else
+            {
+                hearts[i].sprite = deadHeart; // Пустое сердце
+            }
+        }
+    }
+
     private void Awake()
     {
         health = 5;
@@ -110,6 +146,8 @@ public class Hero : EntityEngine
         sprite = GetComponentInChildren<SpriteRenderer>();
         isRecharged= true;  
         LosePanel.SetActive (false);
+        allEnemies = FindObjectsOfType<Sceleton>();
+
     }
 
 
@@ -153,7 +191,7 @@ public class Hero : EntityEngine
 
         for (int i = 0; i < colliders.Length; i++)
         {
-            colliders[i].GetComponent<EntityEngine>().GetDamage();
+            colliders[i].GetComponent<Sceleton>().GetDamage();
         }
     }
     
@@ -209,8 +247,6 @@ public class Hero : EntityEngine
 
 
 }
-
-
 
 
 public enum States

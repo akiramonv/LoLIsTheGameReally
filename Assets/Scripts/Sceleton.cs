@@ -1,98 +1,3 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class Sceleton : EntityEngine
-//{
-//    private float speed = 2.5f;
-//    private Vector3 dir;
-//    private SpriteRenderer sprite;
-//    private Transform player;
-//    private Rigidbody2D rb;
-//    private Animator anim;
-
-//    [SerializeField] private Transform pointA; // Начало патрулируемой зоны
-//    [SerializeField] private Transform pointB; // Конец патрулируемой зоны
-//    [SerializeField] private float detectionRange = 5.0f; // Радиус обнаружения игрока
-
-//    private bool isChasing = false;
-//    private Transform targetPoint;
-
-//    private void Start()
-//    {
-//        dir = transform.right;
-//        lives = 5;
-//        player = Hero.Instance.transform;
-//        targetPoint = pointA; // Начинаем патрулирование с точки A
-//    }
-
-//    private void Awake()
-//    {
-//        rb = GetComponent<Rigidbody2D>();
-//        anim = GetComponent<Animator>();
-//        sprite = GetComponentInChildren<SpriteRenderer>();
-//    }
-
-//    private void Move()
-//    {
-//        if (Mathf.Abs(rb.velocity.y) < 0.005f) State = States.run;
-
-//        if (isChasing)
-//        {
-//            // Если игрок в зоне видимости, идем к нему
-//            Vector3 targetDirection = (player.position - transform.position).normalized;
-//            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-//            sprite.flipX = targetDirection.x < 0.0f;
-//        }
-//        else
-//        {
-//            // Если игрок не виден, патрулируем между точками A и B
-//            float distanceToTarget = Vector3.Distance(transform.position, targetPoint.position);
-
-//            if (distanceToTarget < 1f) // Увеличил порог для проверки
-//            {
-//                // Если достигли одной из точек, меняем цель на противоположную
-//                //targetPoint = targetPoint == pointA ? pointB : pointA;
-//                if (targetPoint == pointA) targetPoint = pointB;
-//                else if (targetPoint = pointB)targetPoint = pointA;
-//            }
-//            // Направление к целевой точке
-//            Vector3 patrolDirection = (targetPoint.position - transform.position).normalized;
-//            transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
-//            sprite.flipX = patrolDirection.x < 0.0f;
-//        }
-//    }
-
-
-//    private States State
-//    {
-//        get { return (States)anim.GetInteger("Skeleton_State"); }
-//        set { anim.SetInteger("Skeleton_State", (int)value); }
-//    }
-
-//    private void Update()
-//    {
-//        // Проверяем расстояние до игрока
-//        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-//        isChasing = distanceToPlayer < detectionRange;
-//        Move();
-
-//        // Run();
-//        //if (Mathf.Abs(rb.velocity.y) < 0.005f && !Input.GetButton("Horizontal")) State = States.stay;
-//        Debug.Log("Current target: " + targetPoint.name);
-
-
-//    }
-
-//    private void OnCollisionEnter2D(Collision2D collision)
-//    {
-//        if (collision.gameObject == Hero.Instance.gameObject)
-//        {
-//            Hero.Instance.GetDamage();
-//        }
-//    }
-//}
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -104,6 +9,8 @@ public class Sceleton : EntityEngine
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator anim;
+
+    [SerializeField] private int maxLives = 5;
 
     [SerializeField] private Transform pointA; // Начало патрулируемой зоны
     [SerializeField] private Transform pointB; // Конец патрулируемой зоны
@@ -130,11 +37,16 @@ public class Sceleton : EntityEngine
     [SerializeField] private GameObject projectilePrefab;     // Префаб снаряда
     [SerializeField] private Transform firePoint;             // Точка выстрела
 
+    [SerializeField] public int scoreDrop = 10; // Очки за уничтожение врага
+
+    [SerializeField] public bool IsBoss = false;
+
+    [SerializeField] public GameObject levelCompleteTriggerPrefab; // Префаб триггера завершения уровня
 
     private void Start()
     {
         dir = transform.right;
-        lives = 5;
+        lives = maxLives;
 
         if (target != null)
         {
@@ -152,14 +64,59 @@ public class Sceleton : EntityEngine
 
     public override void GetDamage()
     {
-        lives -= 1;
+        // Уменьшаем здоровье, но не даем ему уйти ниже 0
+        if (lives > 0)
+        {
+            lives -= 1;
+            Debug.Log($"Enemy {gameObject.name} lives: {lives}");
+        }
 
+        // Если здоровье достигло 0, враг "умирает"
         if (lives <= 0)
         {
+            // Если это босс, создаём триггер завершения уровня
+            if (IsBoss)
+            {
+                //Instantiate(levelCompleteTriggerPrefab, transform.position, Quaternion.identity);
+                levelCompleteTriggerPrefab.SetActive(true);
+            }
+
             DropPotion();
-            Destroy(gameObject); // Уничтожаем врага
+
+
+            gameObject.SetActive(false);
+
+            Debug.Log($"{gameObject.name} has been defeated.");
+            ScoreManager.Instance.AddScore(scoreDrop);
+
         }
     }
+
+
+
+    public void Respawn()
+    {
+        // Восстанавливаем здоровье до максимального
+        lives = maxLives;
+
+        // Перемещаем врага на стартовую точку
+        if (pointA != null)
+        {
+            transform.position = pointA.position;
+        }
+        else
+        {
+            Debug.LogWarning($"Start point for {gameObject.name} is not set!");
+        }
+
+        // Убеждаемся, что объект активен
+        gameObject.SetActive(true);
+
+        Debug.Log($"Enemy {gameObject.name} has respawned with {lives} lives.");
+    }
+
+
+
 
     private void DropPotion()
     {
@@ -168,6 +125,7 @@ public class Sceleton : EntityEngine
             int potionIndex = Random.Range(0, potions.Length); // Выбираем случайное зелье
             Instantiate(potions[potionIndex], transform.position, Quaternion.identity); // Создаём зелье
         }
+        
     }
 
     private void Move()

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NightForest.unity
     guid: 488f4cfa434a4b448b2621f63caa4c8e
+  - enabled: 1
+    path: Assets/Scenes/RuinCastle.unity
+    guid: 05fb0ccc6e2e3ec48aafb6e975704469
+  - enabled: 1
+    path: Assets/Scenes/DuskForest.unity
+    guid: fcac96d124748e0439994f0ee828cc44
   m_configObjects: {}

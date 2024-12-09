@@ -9,13 +9,12 @@ public class CheckpointMenu : MonoBehaviour
     public List<Checkpoint> allCheckpoints;  // Список всех чекпоинтов на сцене
     [SerializeField] private GameObject CheckPointPanel; // Панель чекпоинтов
     [SerializeField] private GameObject pausePanel;      // Панель паузы
-    [SerializeField] private GameObject DeathPanel;      // Панель паузы
-
+    [SerializeField] private GameObject DeathPanel;      // Панель смерти
 
     private void Start()
     {
-        LoadCheckpointButtons();
-
+        LoadCheckpointData(); // Загружаем разблокированные чекпоинты
+        LoadCheckpointButtons(); // Создаем кнопки
     }
 
     private void Awake()
@@ -28,7 +27,6 @@ public class CheckpointMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             CheckPointPanel.SetActive(false);
-            //pausePanel.SetActive(true);
         }
     }
 
@@ -85,6 +83,7 @@ public class CheckpointMenu : MonoBehaviour
         if (checkpoint != null)
         {
             checkpoint.isUnlocked = true;
+            SaveCheckpointData(); // Сохраняем состояние чекпоинтов
             LoadCheckpointButtons();
         }
         else
@@ -112,4 +111,33 @@ public class CheckpointMenu : MonoBehaviour
         }
     }
 
+    private void SaveCheckpointData()
+    {
+        List<string> unlockedCheckpoints = new List<string>();
+
+        foreach (Checkpoint checkpoint in allCheckpoints)
+        {
+            if (checkpoint.isUnlocked)
+            {
+                unlockedCheckpoints.Add(checkpoint.checkpointID);
+            }
+        }
+
+        SaveData data = SaveSystem.LoadProgress();
+        data.unlockedCheckpoints = unlockedCheckpoints;
+        SaveSystem.SaveProgress(data);
+    }
+
+    private void LoadCheckpointData()
+    {
+        SaveData data = SaveSystem.LoadProgress();
+
+        if (data != null && data.unlockedCheckpoints != null)
+        {
+            foreach (Checkpoint checkpoint in allCheckpoints)
+            {
+                checkpoint.isUnlocked = data.unlockedCheckpoints.Contains(checkpoint.checkpointID);
+            }
+        }
+    }
 }

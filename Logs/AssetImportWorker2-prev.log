@@ -1,0 +1,986 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ASUS/2D_LOL_TEST
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49367
+Successfully changed project path to: C:/Users/ASUS/2D_LOL_TEST
+C:/Users/ASUS/2D_LOL_TEST
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14820]  Target information:
+
+Player connection [14820]  * "[IP] 192.168.224.1 [Port] 0 [Flags] 2 [Guid] 1016043171 [EditorId] 1016043171 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NKH7PTR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14820]  * "[IP] 192.168.177.1 [Port] 0 [Flags] 2 [Guid] 1016043171 [EditorId] 1016043171 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NKH7PTR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14820]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 1016043171 [EditorId] 1016043171 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NKH7PTR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 10.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/2D_LOL_TEST/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7887 MB
+    Driver:   31.0.21916.1002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006208 seconds.
+- Loaded All Assemblies, in  0.276 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.216 seconds
+Domain Reload Profiling: 491ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (216ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.517 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.543 seconds
+Domain Reload Profiling: 1057ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (196.2 KB). Loaded Objects now: 4567.
+Memory consumption went from 143.8 MB to 143.6 MB.
+Total: 3.497700 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.194800 ms MarkObjects: 2.858200 ms  DeleteObjects: 0.195600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 363642.958403 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/walk
+  artifactKey: Guid(9ef3719fbef9dd14694c3935899a678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/walk using Guid(9ef3719fbef9dd14694c3935899a678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79f4675c675b8a0835fc4c4636047461') in 0.002612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084491 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_1.png
+  artifactKey: Guid(9b51c0c2228ecc8449cae3f51def0436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_1.png using Guid(9b51c0c2228ecc8449cae3f51def0436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4c0833661aac5c4f448d64597e36d73') in 0.108093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.272075 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer
+  artifactKey: Guid(9bafd41887bbb6146851fe56e1606dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer using Guid(9bafd41887bbb6146851fe56e1606dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'deb3931e8711403a49a9b514ed855f84') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.815197 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer/walk
+  artifactKey: Guid(8d34c582b1f86834499363052dc69e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer/walk using Guid(8d34c582b1f86834499363052dc69e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '473b925e1b9530364ed8cd8fd5868e99') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.238715 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/skeleton
+  artifactKey: Guid(940041386465f3c41a3c026d2e47884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/skeleton using Guid(940041386465f3c41a3c026d2e47884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ff6ce05143f8e2510688c04c51b268d') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 107.119188 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD
+  artifactKey: Guid(e637a05403f4dd6409a2f5b2dd09fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD using Guid(e637a05403f4dd6409a2f5b2dd09fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '617d4383d8661a1d37cec32ceeac916d') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071386 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD/bar.png
+  artifactKey: Guid(08d82439547001b4ea4e7f11578d273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD/bar.png using Guid(08d82439547001b4ea4e7f11578d273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05fe9b2c85f6de7c7b6e337b8c74ace9') in 0.017649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD/health_bar.png
+  artifactKey: Guid(eade42988a50e6e4cb75f14252c1d6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/HUD/health_bar.png using Guid(eade42988a50e6e4cb75f14252c1d6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d37f1686661680c601f051de5c80a6b') in 0.015884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.595466 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles
+  artifactKey: Guid(f11cac78f3f596345a973236e6c22c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles using Guid(f11cac78f3f596345a973236e6c22c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e1abec0cddae1448cc91f9c72bbcf48') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074588 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_1.png
+  artifactKey: Guid(afc028f263abc9041a5ab848e7fd49d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_1.png using Guid(afc028f263abc9041a5ab848e7fd49d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd41fe084013a5517fa78bc09071f226') in 0.015796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/blank.png
+  artifactKey: Guid(49dee14ceb4890b4eb338955a862ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/blank.png using Guid(49dee14ceb4890b4eb338955a862ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5b8cff634becd2bc2d918d91b566017') in 0.014532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_3.png
+  artifactKey: Guid(d7d71453493b5cd4393ae6d2aae84fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_3.png using Guid(d7d71453493b5cd4393ae6d2aae84fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '921250ac3e831ad167ccae7ace2b5503') in 0.019138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_5.png
+  artifactKey: Guid(bd3efe83d59a6cb4098406d57316f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_5.png using Guid(bd3efe83d59a6cb4098406d57316f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f7404413bdc18bf4b358a7a32cd84cc') in 0.015834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_16.png
+  artifactKey: Guid(cbb093f73ab8f9f4d8bfb599a30339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_16.png using Guid(cbb093f73ab8f9f4d8bfb599a30339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0eb890c0f203e86c065faa02b379d01') in 0.015477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_corner_left.png
+  artifactKey: Guid(549d4f958a40652408f90dfd3679c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_corner_left.png using Guid(549d4f958a40652408f90dfd3679c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9178f5198952124e4eec0721ac986f22') in 0.015068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_12.png
+  artifactKey: Guid(a522f19050eb20245ba704b0e87958dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_12.png using Guid(a522f19050eb20245ba704b0e87958dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6af44b858ef7ac30cc58a84df5d78072') in 0.018650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_transparent_1.png
+  artifactKey: Guid(cbfd61cfad9064b49ba7874041300e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_transparent_1.png using Guid(cbfd61cfad9064b49ba7874041300e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e5dfde0edf33618b5b7405f847a5ba7') in 0.015167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_7.png
+  artifactKey: Guid(d81ef2150a3021a41ade14f080faba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_7.png using Guid(d81ef2150a3021a41ade14f080faba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52b5fea7484c50a8393657ac59e7857e') in 0.016058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_15.png
+  artifactKey: Guid(34b7ca3e6e846cc42b516b12dfa3b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_15.png using Guid(34b7ca3e6e846cc42b516b12dfa3b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e45ad3cd400d3bf63bb0df2f13b56e7') in 0.016745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_3.png
+  artifactKey: Guid(f66dbcc4ef5f69444a4516eca13b586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_3.png using Guid(f66dbcc4ef5f69444a4516eca13b586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7c4a2b88e927cdf79cb7212b2aa5ed6') in 0.015063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_corner_right.png
+  artifactKey: Guid(48f4ebac0ec92624c9935755c1cdf181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_corner_right.png using Guid(48f4ebac0ec92624c9935755c1cdf181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05cbfc4b58a7ff75728c6a81274ddff2') in 0.016210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_4.png
+  artifactKey: Guid(bef76e5ecb8f3f84cbc707f09c2ffe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/arch_4.png using Guid(bef76e5ecb8f3f84cbc707f09c2ffe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db444d5e8d19ac3606d08609446a632e') in 0.018214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_4.png
+  artifactKey: Guid(50ea8dd4bce59db47a7beae50fbdfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_4.png using Guid(50ea8dd4bce59db47a7beae50fbdfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ffd687896f5840c7311ed66a4afaf1b') in 0.015566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_1.png
+  artifactKey: Guid(4430ba8ad16d2e04096f5bbb568128ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_1.png using Guid(4430ba8ad16d2e04096f5bbb568128ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03f2781cef29fc2a457dc289636187e5') in 0.018630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_8.png
+  artifactKey: Guid(129016e4b9051b741b6bb3c82ea97df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_8.png using Guid(129016e4b9051b741b6bb3c82ea97df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6e1bf291fcf8541d8196208b2bb8da3') in 0.015457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_2.png
+  artifactKey: Guid(117273f3e36a3f7408c992f22dd56050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_2.png using Guid(117273f3e36a3f7408c992f22dd56050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '785164963aefdce0f0128fc64e6ac76c') in 0.017218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_11.png
+  artifactKey: Guid(a1cc8ed3e3e6a4742a11f1f2cedd4856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_11.png using Guid(a1cc8ed3e3e6a4742a11f1f2cedd4856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37a1a9052ecc5591a8da22720672d396') in 0.016039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_transparent_2.png
+  artifactKey: Guid(a447e7a961a2cec49bd49f41250b0e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/ceiling_transparent_2.png using Guid(a447e7a961a2cec49bd49f41250b0e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcf4f9a00694e819f834bb8cdf14022d') in 0.016290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_13.png
+  artifactKey: Guid(0c70b9154685b6e4cb6cc440aa0c0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/brick_13.png using Guid(0c70b9154685b6e4cb6cc440aa0c0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c81b2804430d1d71e4876de56eafc496') in 0.016517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.045667 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_6.png
+  artifactKey: Guid(1877a183d6a1a6d4e90684487e3024e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_6.png using Guid(1877a183d6a1a6d4e90684487e3024e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10c60eee3aaf837b8863b00c95ae4c93') in 0.019867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/damaged_brick_2.png
+  artifactKey: Guid(76c6885c307a5d74e9a775b30b545c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/damaged_brick_2.png using Guid(76c6885c307a5d74e9a775b30b545c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '893ca9bc70427701c5c139ed78d9eb5f') in 0.022405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/damaged_brick_3.png
+  artifactKey: Guid(ffcf9ef43d477494587a7ac6458f685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/damaged_brick_3.png using Guid(ffcf9ef43d477494587a7ac6458f685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7793b8096c568fcb1ee258486897d30d') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_3.png
+  artifactKey: Guid(c37de388666f9a8438fdc6c9c80e5f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_3.png using Guid(c37de388666f9a8438fdc6c9c80e5f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '409438ced227508db6c52d27b5173b96') in 0.017701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_8.png
+  artifactKey: Guid(58d543a6bfd357447a9785eef97eed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/column_8.png using Guid(58d543a6bfd357447a9785eef97eed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a65be553399a3ab142e11886ec95276') in 0.017474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.709498 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_4.png
+  artifactKey: Guid(c418172974996d24e8c7065b83256881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_4.png using Guid(c418172974996d24e8c7065b83256881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9bef6c513127a3a53e15c340cab8a0e') in 0.020764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_4.png
+  artifactKey: Guid(d5aaa05ff6cd7ba469f8e1d0023ffa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_4.png using Guid(d5aaa05ff6cd7ba469f8e1d0023ffa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d6ca6b56fc0cd3e282f56a691bdd2bd') in 0.025486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_transition_1.png
+  artifactKey: Guid(58e163438c9a8c34b915e30c81a4bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_transition_1.png using Guid(58e163438c9a8c34b915e30c81a4bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c856cde8aea565d5b23c58d8a5f0fc87') in 0.016828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_3.png
+  artifactKey: Guid(75388da0f6b530643880ebca280340fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_3.png using Guid(75388da0f6b530643880ebca280340fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af36e42ad3d5ead5a6d1dfbf2d713594') in 0.019152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_corner_left.png
+  artifactKey: Guid(ab64b4b9eb7d9494b935744beb413a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_corner_left.png using Guid(ab64b4b9eb7d9494b935744beb413a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f4fed1af674b2c1ab6eeed3e5b72873') in 0.017851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.086836 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_corner_right.png
+  artifactKey: Guid(0aa71aeab68d04f4186d77b16af81954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_corner_right.png using Guid(0aa71aeab68d04f4186d77b16af81954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07c1d9e67b94e9671d4585de533e191c') in 0.017038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_1.png
+  artifactKey: Guid(48e5441bad099b5418cc547ad0767f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_1.png using Guid(48e5441bad099b5418cc547ad0767f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac3daeddd07561c6caf86dfab8df6e37') in 0.018339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png
+  artifactKey: Guid(080177b05b2ec884582ecd181d11b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png using Guid(080177b05b2ec884582ecd181d11b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30ab9173fafac979ffedbd79d0629260') in 0.016847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_4.png
+  artifactKey: Guid(f2f2374c3fcb8374cbf8208dcab696ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_4.png using Guid(f2f2374c3fcb8374cbf8208dcab696ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '312cef21196072ffb583f09969ec07cd') in 0.017568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_3.png
+  artifactKey: Guid(e45dc7f1e3faaf44382c6448eb33f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_3.png using Guid(e45dc7f1e3faaf44382c6448eb33f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '717ca3606e2ad7d9508192cc4dbcb413') in 0.016437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.861517 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_2.png
+  artifactKey: Guid(70aed09d66a8bc245abe32010d88df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_2.png using Guid(70aed09d66a8bc245abe32010d88df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '167f8c9ae7d2fa4308f20831679d3c56') in 0.021632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_right.png
+  artifactKey: Guid(bd97003f2cd861e45b128d0a7f85a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_right.png using Guid(bd97003f2cd861e45b128d0a7f85a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f849d892fc4187fd210c056d8f66d232') in 0.016166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_left.png
+  artifactKey: Guid(d30affe9b6b9d2649b8f19931bad2487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_left.png using Guid(d30affe9b6b9d2649b8f19931bad2487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd26d262c7f995712b8173ed99ade23e3') in 0.017931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_1.png
+  artifactKey: Guid(2d2a81b5620d58e4ab4ad7fc29d7d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_1.png using Guid(2d2a81b5620d58e4ab4ad7fc29d7d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cc831f4f20b9bd2eaaac11756c63139') in 0.017725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_corner_right.png
+  artifactKey: Guid(ffe16e4c5d7335e409f5dee99771d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_corner_right.png using Guid(ffe16e4c5d7335e409f5dee99771d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd9ad246540603652892d14dbb984664') in 0.015036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.700219 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_2.png
+  artifactKey: Guid(175f4347b0751e14bae19ad9c3e9cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_2.png using Guid(175f4347b0751e14bae19ad9c3e9cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73d41b434b7863391f18ff1a92bb0254') in 0.023562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_7.png
+  artifactKey: Guid(55d23ebc5dde8bf46aa99e0818dc6f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_7.png using Guid(55d23ebc5dde8bf46aa99e0818dc6f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b9fb74383ce6432a2d1ebe1c82da24d') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_8.png
+  artifactKey: Guid(bb6d1f5d5b7e6184080b0329d3b1ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_8.png using Guid(bb6d1f5d5b7e6184080b0329d3b1ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9d531912642fad6edfe40059b43e8a2') in 0.014771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.757138 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_12.png
+  artifactKey: Guid(cdfc427747f7a6b4d857e11ba8036b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/lion_column_12.png using Guid(cdfc427747f7a6b4d857e11ba8036b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9829ee08990550076d414d8284f27429') in 0.019666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_1.png
+  artifactKey: Guid(a6cc49ef6db3c2e4db7fc0a23eccbd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_1.png using Guid(a6cc49ef6db3c2e4db7fc0a23eccbd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'acf304de42ac1d5ebfe89230bd3c84e7') in 0.018742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_2.png
+  artifactKey: Guid(0f457b8b4b6067b48b411e37fcdae876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_2.png using Guid(0f457b8b4b6067b48b411e37fcdae876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac9442da677876cbf81fa63a0b189fad') in 0.017735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.161478 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_shadow.png
+  artifactKey: Guid(901edab80c3bb074088804ea7483a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/platform_shadow.png using Guid(901edab80c3bb074088804ea7483a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3976b765f4749f881ae3ba3de1cb294c') in 0.039509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/spikes.png
+  artifactKey: Guid(d113e58a0fa193b4a82f127c1da60d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/spikes.png using Guid(d113e58a0fa193b4a82f127c1da60d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd88746af03936bbad40070f5c8c0ff85') in 0.040146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_4.png
+  artifactKey: Guid(f37f4f7ad026c48499c6bcecf8543fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_4.png using Guid(f37f4f7ad026c48499c6bcecf8543fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd14470d71bc025fd81a1b8f1470e45ed') in 0.020652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_1.png
+  artifactKey: Guid(2c3db6b34ad26764891a329e4fc58ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_1.png using Guid(2c3db6b34ad26764891a329e4fc58ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff04fbc2880fe2adc29ce67207b9b6e2') in 0.017878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.721107 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_3.png
+  artifactKey: Guid(01f72760ede2fe443804c463042ec10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_3.png using Guid(01f72760ede2fe443804c463042ec10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65463cb8d38721f1f64b2b6648eaeaf1') in 0.019770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_4.png
+  artifactKey: Guid(159bb6e2987758d4f8b42d4f13e3ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_4.png using Guid(159bb6e2987758d4f8b42d4f13e3ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '745b7d85ef363a419919623a7b323976') in 0.017031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_2.png
+  artifactKey: Guid(75bc446ad9a7e044496c7301731bd232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_2.png using Guid(75bc446ad9a7e044496c7301731bd232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91088bb0cb040200c676a92cde5c3d3d') in 0.017025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.544219 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/tile_side_left.png
+  artifactKey: Guid(a0cf2f9bb4354ab44b0a19cd55d7e663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/tile_side_left.png using Guid(a0cf2f9bb4354ab44b0a19cd55d7e663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8011543075515de52700c43f7a5dd961') in 0.018464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_2.png
+  artifactKey: Guid(849d1304c02680f4faea475b88f1ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_2.png using Guid(849d1304c02680f4faea475b88f1ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7eab1b71bdccc82dc60db107d1a63e75') in 0.016055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_3.png
+  artifactKey: Guid(dc20ca6dfeac17544bb70baea6afd928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_3.png using Guid(dc20ca6dfeac17544bb70baea6afd928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2afd8636062d32c67b5f9e43c00b26a3') in 0.019805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.015564 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_9.png
+  artifactKey: Guid(0f0b7ca341edd1948a3c24ff048f8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_9.png using Guid(0f0b7ca341edd1948a3c24ff048f8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '050d3657525c74cff483499146d50eed') in 0.020088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_18.png
+  artifactKey: Guid(cc42db97bfa5cf74c836920f9cbf5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_18.png using Guid(cc42db97bfa5cf74c836920f9cbf5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19eb457b94f3c202bbdf87aaebfc7f3b') in 0.017733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_13.png
+  artifactKey: Guid(cb458c018078b3d4cb96c8d334de6e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/wall_13.png using Guid(cb458c018078b3d4cb96c8d334de6e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c6e34dacfff0b8e2fdcce036744324d') in 0.016039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.863231 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_big_1.png
+  artifactKey: Guid(d3b6a693ccf846b468a87ff02a4ca25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_big_1.png using Guid(d3b6a693ccf846b468a87ff02a4ca25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e2f28947c8f850643ad30facf38bc16') in 0.020615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_1.png
+  artifactKey: Guid(4017345cd901b9947b012a32671bbdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_1.png using Guid(4017345cd901b9947b012a32671bbdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26a9d9bcb7c28b2d4aa618e708770db2') in 0.020027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_2.png
+  artifactKey: Guid(22a95ae8bd48d8147bdd070246183f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_2.png using Guid(22a95ae8bd48d8147bdd070246183f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fe712b3d0d3b118f27ed6d387440c43') in 0.015553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.349256 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_3.png
+  artifactKey: Guid(1d8217b0c4e53cc40aec0d7737967054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_3.png using Guid(1d8217b0c4e53cc40aec0d7737967054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f92c8b2328fbd2f596d0a3c25eb474c2') in 0.020470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_tall_2.png
+  artifactKey: Guid(d992658d531432349a82ef1d820a454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Tiles/window_tall_2.png using Guid(d992658d531432349a82ef1d820a454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8d299964f40048d1fbda44de5be1945') in 0.015477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.770 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1403ms
+	BeginReloadAssembly (507ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (359ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (168.2 KB). Loaded Objects now: 4607.
+Memory consumption went from 146.1 MB to 145.9 MB.
+Total: 5.930400 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.340700 ms MarkObjects: 4.959700 ms  DeleteObjects: 0.203800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

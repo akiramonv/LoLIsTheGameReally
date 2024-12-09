@@ -62,12 +62,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\FlyingEye.cs" />
+    <Compile Include="Assets\Scripts\SlotsProgressUpd.cs" />
     <Compile Include="Assets\Scripts\WoodEnemy.cs" />
     <Compile Include="Assets\Scripts\MovePlatform.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\CPMenu.cs" />
+    <Compile Include="Assets\Scripts\SlotManager.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\DeathLine.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Worm.cs" />
@@ -80,11 +83,15 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\Artif.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Materials\Enemies\Martial Hero 2\License.txt" />
     <None Include="Assets\Materials\Enemies\Hero Knight 2\License.txt" />
     <None Include="Assets\Materials\Enemies\Huntress\License.txt" />
     <None Include="Assets\Materials\Level Design\NightForest\!readme!.txt" />
+    <None Include="Assets\Materials\Enemies\Martial Hero\License.txt" />
+    <None Include="Assets\Materials\Enemies\Medieval Warrior Pack 3\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
