@@ -18,6 +18,7 @@ public class Hero : EntityEngine
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sprite;
+    private AudioSource atackSound;
 
     public bool isAttcking = false;
     public bool isRecharged = false;
@@ -147,6 +148,7 @@ public class Hero : EntityEngine
         isRecharged= true;  
         LosePanel.SetActive (false);
         allEnemies = FindObjectsOfType<Sceleton>();
+        atackSound = GetComponentInChildren<AudioSource>();
 
     }
 
@@ -181,6 +183,7 @@ public class Hero : EntityEngine
 
             StartCoroutine(AttackAnim());
             StartCoroutine(AttackCoolDown());
+            atackSound.Play();
 
         }
     }
