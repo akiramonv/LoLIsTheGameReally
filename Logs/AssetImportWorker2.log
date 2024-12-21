@@ -193,3 +193,102 @@ Start importing Assets/Scenes using Guid(6e37d5c6843e26043b01196b0f046e52) Impor
  -> (artifact id: 'fbe8cf0112f022e6909da47c80c71dcd') in 0.002718 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.647068 seconds.
+  path: Assets/Scenes/NightForest.unity
+  artifactKey: Guid(488f4cfa434a4b448b2621f63caa4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NightForest.unity using Guid(488f4cfa434a4b448b2621f63caa4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66932139e4c090e5f1ce2e8936fe86f0') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.623209 seconds.
+  path: Assets/Scenes/RuinCastle.unity
+  artifactKey: Guid(05fb0ccc6e2e3ec48aafb6e975704469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RuinCastle.unity using Guid(05fb0ccc6e2e3ec48aafb6e975704469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fbe541936487c80fed58a6734d0da251') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 967.635711 seconds.
+  path: Assets/Scenes/Select_level_menu.unity
+  artifactKey: Guid(64411c3e261f18d4b9ffd8ddf5c3a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select_level_menu.unity using Guid(64411c3e261f18d4b9ffd8ddf5c3a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b652a4b70f7ace366e3f01d0bdc4cfd') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.773618 seconds.
+  path: Assets/Scenes/CaveLevel.unity
+  artifactKey: Guid(01617f2e44304f14696bea8680ffb80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CaveLevel.unity using Guid(01617f2e44304f14696bea8680ffb80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c581c18ff34199bc983defa2c076fc9') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.030800 seconds.
+  path: Assets/AstarPathfindingProject/AstarPathfindingProject.asmdef
+  artifactKey: Guid(efa45043feb7e4147a305b73b5cea642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/AstarPathfindingProject.asmdef using Guid(efa45043feb7e4147a305b73b5cea642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a291371fbda6b02e6896d9a2904264b3') in 0.000569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.448362 seconds.
+  path: Assets/Materials/Level Design
+  artifactKey: Guid(e24240aef44e8334983976775b9d513d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design using Guid(e24240aef44e8334983976775b9d513d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f81852692c485302ae7aeb458cef382') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.031127 seconds.
+  path: Assets/Materials/Level Design/MountainsLayers
+  artifactKey: Guid(8ffac5b94f9b2b549ada987369f54949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/MountainsLayers using Guid(8ffac5b94f9b2b549ada987369f54949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89423e17c7a93865903d4b94b429fc34') in 0.001017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.959961 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack
+  artifactKey: Guid(4be2bf77aa0c4b245bd557f20a0efd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack using Guid(4be2bf77aa0c4b245bd557f20a0efd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0725361f172a407786f3b2319fcf058') in 0.000755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.277638 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters
+  artifactKey: Guid(acc2060d3cc4ab142998be71df78176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters using Guid(acc2060d3cc4ab142998be71df78176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '386a986455bffb8a17febec6770abb54') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.789549 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer
+  artifactKey: Guid(9bafd41887bbb6146851fe56e1606dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer using Guid(9bafd41887bbb6146851fe56e1606dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd6843397200fdc64654fa90d889d428') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.206279 seconds.
+  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer/death
+  artifactKey: Guid(def4488d34c130d4ea581a8fb29d277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/necromancer/death using Guid(def4488d34c130d4ea581a8fb29d277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e23ffc81d74e7e1f29f662b1eba7308f') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
