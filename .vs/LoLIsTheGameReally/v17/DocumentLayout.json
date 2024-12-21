@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\2d_lol_test\\lolisthegamereally\\assets\\scripts\\sceleton1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceleton1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\2d_lol_test\\lolisthegamereally\\assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\2d_lol_test\\lolisthegamereally\\assets\\scripts\\cpmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cpmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\assets\\scripts\\sceleton1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DD64037-11CE-F399-10C2-9054C39D911F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceleton1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CPMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\Assets\\Scripts\\CPMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CPMenu.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\Assets\\Scripts\\CPMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CPMenu.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T04:31:31.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Sceleton1.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\Assets\\Scripts\\Sceleton1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sceleton1.cs",
@@ -38,18 +55,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Sceleton1.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T04:27:23.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T04:27:23.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\Assets\\Scripts\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hero.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\2D_LOL_TEST\\LoLIsTheGameReally\\Assets\\Scripts\\Hero.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hero.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAIwLkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswLkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T04:24:13.201Z",
               "EditorCaption": ""
