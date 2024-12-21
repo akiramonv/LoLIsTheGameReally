@@ -15,7 +15,7 @@ C:/Users/ACER/Desktop/2D_LOL_TEST/LoLIsTheGameReally
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62985
+63305
 Successfully changed project path to: C:/Users/ACER/Desktop/2D_LOL_TEST/LoLIsTheGameReally
 C:/Users/ACER/Desktop/2D_LOL_TEST/LoLIsTheGameReally
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/ACER/Desktop/2D_LOL_TEST/LoLIsTheGameReally
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13488]  Target information:
+Player connection [7252]  Target information:
 
-Player connection [13488]  * "[IP] 10.101.57.211 [Port] 0 [Flags] 2 [Guid] 1681032199 [EditorId] 1681032199 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UIVF94T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7252]  * "[IP] 10.101.57.211 [Port] 0 [Flags] 2 [Guid] 2613408834 [EditorId] 2613408834 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UIVF94T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13488] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13488] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7252] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7252] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 12.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008318 seconds.
-- Loaded All Assemblies, in  0.457 seconds
+Registered in 0.007292 seconds.
+- Loaded All Assemblies, in  0.427 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 669 ms
+Android Extension - Scanning For ADB Devices 511 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.076 seconds
-Domain Reload Profiling: 1531ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (140ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (148ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (168ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1077ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1004ms)
+		SetupLoadedEditorAssemblies (803ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (770ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (586ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 1531ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.932 seconds
+- Loaded All Assemblies, in  0.667 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.958 seconds
-Domain Reload Profiling: 1886ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (619ms)
-		LoadAssemblies (530ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (156ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (958ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (747ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (759ms)
+		SetupLoadedEditorAssemblies (592ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (533ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (195.8 KB). Loaded Objects now: 4572.
-Memory consumption went from 144.0 MB to 143.9 MB.
-Total: 5.088100 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.180800 ms MarkObjects: 4.251100 ms  DeleteObjects: 0.270600 ms)
+Unloading 38 unused Assets / (195.7 KB). Loaded Objects now: 4572.
+Memory consumption went from 144.1 MB to 143.9 MB.
+Total: 4.358000 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.209700 ms MarkObjects: 3.492600 ms  DeleteObjects: 0.242700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,71 +186,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 224090.259934 seconds.
-  path: Assets/MainMenu/Images/MainMenu.jpeg
-  artifactKey: Guid(2128cbd566c7bbd498f45e030d689674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenu/Images/MainMenu.jpeg using Guid(2128cbd566c7bbd498f45e030d689674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '94212c54514f076ac03755e156853c4c') in 0.110043 seconds
+  Time since last request: 224597.966213 seconds.
+  path: Assets/Scenes/RuinCastle.unity
+  artifactKey: Guid(05fb0ccc6e2e3ec48aafb6e975704469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RuinCastle.unity using Guid(05fb0ccc6e2e3ec48aafb6e975704469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a391f5bab05ec1eacae20940aa7203bc') in 0.003867 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 86.865066 seconds.
-  path: Assets/Materials/Hero/Heart.png
-  artifactKey: Guid(f01fd0b822f912b40a08fbda8c01acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Hero/Heart.png using Guid(f01fd0b822f912b40a08fbda8c01acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f8f85f0b95036659b7b4ea8500292fd0') in 0.015850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 67.237276 seconds.
-  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_2.png
-  artifactKey: Guid(f2675850463cc58488c2c61cb9d05e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_2.png using Guid(f2675850463cc58488c2c61cb9d05e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a1c1674e2a179e96c83fb4e42a5dbd1e') in 0.009030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.084021 seconds.
-  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_3.png
-  artifactKey: Guid(73c848bdc825bcc4b896fdc4dc46fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_3.png using Guid(73c848bdc825bcc4b896fdc4dc46fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '341e89d1621d920a569ea404bf791026') in 0.010748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_4.png
-  artifactKey: Guid(2ad8e26836d22c442a6a67ca1ea71810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Level Design/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_4.png using Guid(2ad8e26836d22c442a6a67ca1ea71810) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cc97852412ce90d3dc95d4352f15c88a') in 0.007961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.055058 seconds.
-  path: Assets/Materials/Level Design/Layer2.png
-  artifactKey: Guid(f5238df4920319243b2dab3777357827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Level Design/Layer2.png using Guid(f5238df4920319243b2dab3777357827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b0882aad5055869ec44d8de5bc0f40fd') in 0.020931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/Level Design/Tile.png
-  artifactKey: Guid(e878852aa342e28499f58c50ec6c8474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Level Design/Tile.png using Guid(e878852aa342e28499f58c50ec6c8474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e27b0871a12e60a2439adc8291c43764') in 0.014073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
